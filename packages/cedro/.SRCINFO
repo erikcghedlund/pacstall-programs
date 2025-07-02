@@ -1,0 +1,16 @@
+pkgbase = cedro
+	pkgver = 1.0.10
+	pkgdesc = C language extension that works as a pre-processor
+	url = https://sentido-labs.com/en/library/?filter=cedro
+	arch = any
+	checkdepends = valgrind
+	checkdepends = sparse
+	checkdepends = gcc
+	checkdepends = make
+	breaks = cedro-git
+	license = Apache-2.0
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	source = https://sentido-labs.com/blake3/1e2b67d9/9868bc98/66f814db/688b135c/dafb9899/1df3858a/f05d135f/ea379f6a/e4bc637e/6f3a3a5c/a10861b7/040d3b09/6f0715cd/0aba45cc/b65d5ebe/ec9b53c2/cedro-1.0.10_20230321.tbz2
+	sha256sums = 9bbf54a55bfb0b65abe2409ae601d195d4c4e87ecab3f588995fbec8048ad2f3
+
+pkgname = cedro
