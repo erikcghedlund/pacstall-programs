@@ -1,0 +1,21 @@
+pkgbase = grocy
+	pkgver = 4.5.0
+	pkgdesc = web-based self-hosted groceries & household management solution for your home
+	url = https://grocy.info/
+	arch = any
+	depends = php
+	depends = php-sqlite3
+	depends = php-gd
+	depends = php-intl
+	depends = php-mbstring
+	makedepends = composer
+	makedepends = git
+	makedepends = node-npm
+	breaks = grocy-bin
+	breaks = grocy-git
+	backup = etc/webapps/grocy/config.php
+	license = MIT
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	source = https://github.com/grocy/grocy/archive/v4.5.0.tar.gz
+
+pkgname = grocy
