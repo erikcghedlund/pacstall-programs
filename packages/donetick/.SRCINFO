@@ -1,0 +1,15 @@
+pkgbase = donetick
+	pkgver = 0.1.53
+	pkgdesc = Open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized
+	url = https://donetick.com/
+	arch = any
+	makedepends = node-npm
+	makedepends = golang
+	license = AGPL-3.0-only
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	source = backend::https://github.com/donetick/donetick/archive/refs/tags/v0.1.53.tar.gz
+	source = frontend::https://github.com/donetick/frontend/archive/refs/tags/v0.1.40.tar.gz
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = donetick
