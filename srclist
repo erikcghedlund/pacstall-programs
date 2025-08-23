@@ -2388,6 +2388,21 @@ pkgbase = dolphin-emu-git
 
 pkgname = dolphin-emu-git
 ---
+pkgbase = donetick
+	pkgver = 0.1.53
+	pkgdesc = Open-source, user-friendly app for managing tasks and chores, featuring customizable options to help you and others stay organized
+	url = https://donetick.com/
+	arch = arm64
+	arch = amd64
+	depends = sqlite3
+	license = AGPL-3.0-only
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	sha256sums = SKIP
+	source_arm64 = https://github.com/donetick/donetick/releases/download/v0.1.53/donetick_Linux_aarch64.tar.gz
+	source_amd64 = https://github.com/donetick/donetick/releases/download/v0.1.53/donetick_Linux_x86_64.tar.gz
+
+pkgname = donetick
+---
 pkgbase = dotdrop
 	pkgver = 1.15.0
 	pkgdesc = Save your dotfiles once, deploy them everywhere

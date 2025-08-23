@@ -115,6 +115,7 @@ docker-bin
 docker-buildx-plugin-bin
 docker-compose-plugin-bin
 dolphin-emu-git
+donetick-bin
 dotdrop
 drawio-desktop-deb
 dremio-bin
