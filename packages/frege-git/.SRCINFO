@@ -1,0 +1,21 @@
+pkgbase = frege-git
+	gives = frege
+	pkgver = 3.25alpha
+	pkgdesc = Frege is a Haskell for the JVM. It brings purely functional programing to the Java platform.
+	url = https://github.com/Frege/frege
+	arch = all
+	depends = openjdk-11-jre
+	makedepends = make
+	makedepends = openjdk-11-jdk
+	makedepends = time
+	makedepends = pbyacc | byacc-j
+	breaks = frege
+	license = BSD-3-Clause
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	repology = project: frege
+	source = https://github.com/Frege/frege.git
+	source = fregec.jar::https://github.com/Frege/frege/releases/download/3.25alpha/frege3.25.84.jar
+	sha256sums = SKIP
+	sha256sums = 66c60007d5a3661ef8330ffc0c775d2099fcab35ee4b4087612b95a6ee181cf3
+
+pkgname = frege-git
