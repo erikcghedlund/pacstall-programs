@@ -8794,6 +8794,20 @@ pkgbase = meson-git
 
 pkgname = meson-git
 ---
+pkgbase = metapac
+	pkgver = 0.8.0
+	pkgdesc = Multi-backend declarative package manager
+	url = https://github.com/ripytide/metapac
+	arch = any
+	makedepends = cargo>=1.85 | cargo>=1.85
+	license = GPL-3.0-only
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
+	repology = project: metapac
+	source = https://github.com/ripytide/metapac/archive/refs/tags/v0.8.0.tar.gz
+	sha256sums = ce1c2dd574889c60db243e2bbc295e62f763ff46a360f790e783542ce060a965
+
+pkgname = metapac
+---
 pkgbase = micro
 	pkgver = 2.0.14
 	pkgdesc = A modern and intuitive terminal-based text editor
