@@ -1,0 +1,16 @@
+pkgbase = libbstring
+	pkgver = 1.0.3
+	pkgdesc = Better String Library
+	url = https://mike.steinert.ca/bstring
+	arch = any
+	makedepends = meson
+	makedepends = ninja-build
+	makedepends = doxygen
+	makedepends = pkg-config
+	checkdepends = check
+	license = BSD-3-Clause
+	maintainer = Erik Hedlund <erikcghedlund@outlook.com
+	source = https://github.com/msteinert/bstring/archive/refs/tags/v1.0.3.tar.gz
+	sha256sums = a8b1613d4104e4c7e46bdedb123f0497d9a80ce3b34bdac3191a480e28556799
+
+pkgname = libbstring

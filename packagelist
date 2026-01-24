@@ -336,6 +336,7 @@ lens
 lf-bin
 libaquamarine-bin
 libation-deb
+libbstring
 libcamera-git
 libcs50-git
 libcutefish-git
