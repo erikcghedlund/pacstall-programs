@@ -14,9 +14,9 @@ sha256sums=('a8b1613d4104e4c7e46bdedb123f0497d9a80ce3b34bdac3191a480e28556799')
 prepare() {
   cd "${srcdir}/${_pkgname}-${pkgver}"
   if type "checkmk"; then
-    meson setup build -Denable-docs=true --buildtype=release -Denable-tests=true --prefix='/usr/local'
+    meson setup build -Denable-docs=true --buildtype=release -Denable-tests=true --prefix='/usr'
   else
-    meson setup build -Denable-docs=true --buildtype=release --prefix='/usr/local'
+    meson setup build -Denable-docs=true --buildtype=release --prefix='/usr'
   fi
 }
 
