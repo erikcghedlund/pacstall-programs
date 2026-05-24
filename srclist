@@ -11993,17 +11993,35 @@ pkgbase = plasma-compact-shutdown-git
 pkgname = plasma-compact-shutdown-git
 ---
 pkgbase = plasma-kara
-	pkgver = 0.7.3
+	pkgver = 1.0.0
 	pkgdesc = KDE applet for the Plasma pager
 	url = https://github.com/dhruv8sh/kara
 	arch = all
 	depends = plasma-desktop>=4:6.0.0
+	depends = libkf6i18n6>=6.0.0
+	depends = libkf6service6>=6.0.0
+	depends = libkf6windowsystem6>=6.0.0
+	depends = libplasmaactivities6>=6.0.0 | libplasmaactivities7>=6.0.0
+	depends = libdrm2
+	makedepends = cmake
+	makedepends = build-essential
+	makedepends = qt6-declarative-dev>=6.4.0
+	makedepends = extra-cmake-modules
+	makedepends = qt6-base-dev>=6.4.0
+	makedepends = libkf6i18n-dev>=6.0.0
+	makedepends = libkf6service-dev>=6.0.0
+	makedepends = libkf6windowsystem-dev>=6.0.0
+	makedepends = plasma-workspace-dev
+	makedepends = libplasmaactivities-dev
+	makedepends = kwin-dev
+	makedepends = pkg-config
+	makedepends = libdrm-dev
 	breaks = plasma-kara-git
 	license = GPL-3.0-only
 	maintainer = Erik Hedlund <erikcghedlund@outlook.com>
 	repology = project: kara
-	source = https://github.com/dhruv8sh/kara/archive/refs/tags/v0.7.3.tar.gz
-	sha256sums = f7b794f56ec7d9056d511f0d313c354ed57246ad1c5500869c4a2f0e82bcc77b
+	source = https://github.com/dhruv8sh/kara/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = 9cd23ab8e03243f9891f2d01805bcf12a62258f95d4d2917498a5413ea023393
 
 pkgname = plasma-kara
 ---
